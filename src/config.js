@@ -17,4 +17,23 @@ export const questionaire = [
     type: "radio",
     name: "exercise",
   },
+  {
+    question:
+      "How many cups of coffe or caffeinated beverages do you normally consume daily?",
+    answers: ["0", "1-3", "4-6", "7 or more"],
+    type: "radio",
+    name: "coffee",
+  },
+  {
+    question: "How many 8 oz. glasses of water do you normally drink daily?",
+    answers: ["0", "3-6", "6-8", "9 or more"],
+    type: "radio",
+    name: "water",
+  },
+  {
+    question: "Do you usually:",
+    answers: ["Eat out", "Cook at home", "Both"],
+    type: "radio",
+    name: "food",
+  },
 ];
