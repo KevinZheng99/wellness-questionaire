@@ -1,0 +1,18 @@
+.form {
+  color: #eeeeee;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  width: 25%;
+  margin: auto;
+}
+
+.form-question {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  width: 20%;
+}
